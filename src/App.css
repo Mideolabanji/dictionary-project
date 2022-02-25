@@ -5,10 +5,17 @@
 
 body {
   background-color: var(--background);
+
   margin: 30px auto;
   max-width: 600px;
 }
 
 h1 {
-  background-color: var(--body);
+  text-align: center;
+}
+
+input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
 }
