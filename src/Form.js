@@ -1,11 +1,10 @@
 import React from "react";
-import { InputGroup } from "react-bootstrap";
 
 export default function Form() {
   return (
     <div>
       <form>
-        <input type="search" />
+        <input type="search" placeholder="Type any word..." />
       </form>
     </div>
   );
